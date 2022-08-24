@@ -2,7 +2,7 @@
 
 FROM openjdk:11-slim-buster
 
-LABEL org.opencontainers.image.source https://github.com/harness-apps/dag-setup-verifier
+LABEL org.opencontainers.image.source https://github.com/kameshsampath/dag-setup-verifier
 LABEL org.opencontainers.image.authors="Kamesh Sampath<kamesh.sampath@hotmail.com>"
 
 ARG TARGETARCH
