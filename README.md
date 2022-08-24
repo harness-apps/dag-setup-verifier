@@ -1,4 +1,4 @@
-# dag-verify
+# dag-setup-verifier
 
 A simple demo application to verify DAG setup
 
