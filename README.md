@@ -20,11 +20,11 @@ drone info
 Let use set these variables as Drone secrets using the Drone CLI,
 
 ```shell
-./scripts/add-secrets
+./scripts/add-secrets.sh >> .drone.yml
 ```
 
 Now we are all set to verify our DAG setup, do an empty commit and push to the repo to see the build getting started
 
 ```shell
-git commit --allow-empty -m "Verify Setup" -m "Verify Setup"
+git commit --allow-empty -m "Verify Setup"
 ```
