@@ -1,6 +1,7 @@
 #! /usr/bin/env bash
 
 cat <<EOF
+
 ---
 kind: secret
 name: image_registry_user
